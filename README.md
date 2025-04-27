@@ -19,11 +19,27 @@ This project contains several major parts:
 
 ## 🛠️ How to Build and Run
 
-Simply compile and run any of the Java classes using:
+### Prerequisites
+- Java 17 installed
+- A terminal/command line tool
+
+### Compilation
+
+Navigate to the `src/` directory and compile all Java files:
+
 ```bash
-javac src/path/to/YourClass.java
-java path.to.YourClass
+javac *.java
 ```
+This will compile all classes at once.
+
+## 🚀 How to Use
+This project is a collection of Java classes for data structures and hashing experiments.
+It does not include a default Main class to run directly.
+You can:
+- Write your own test classes that use these classes.
+- Use the provided utilities (e.g., HashingExperimentUtils) to run experiments.
+- Integrate these structures into other Java projects.
+If you want a simple test yourself, you can write a new TestMain.java with a main() function that creates and tests these classes.
 
 ## 🧠 Key Features
 - Skip List with probabilistic height generation and fast search/update.
